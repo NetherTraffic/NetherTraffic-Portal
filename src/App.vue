@@ -118,7 +118,7 @@ const navItems = ref([
   },
   { 
     name: 'QQ群', 
-    path: 'https://qm.qq.com/q/xxxxxxxxxx', 
+    path: 'https://qm.qq.com/q/6Qae6GUII8', 
     isExternal: true,
     target: '_blank'
   }

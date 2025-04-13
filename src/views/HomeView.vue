@@ -27,7 +27,10 @@
       class="border border-slate-600 hover:border-cyan-500 px-8 py-4 rounded-xl text-lg font-semibold text-slate-300 transition-all hover:bg-slate-800/50 inline-block cursor-pointer"
     >
       登录控制台
-    </a>
+    </a><br>
+        <p class="text-slate-400 text-xs md:text-sm text-center max-w-[280px]">
+            联机平台需要使用 HiMCBBS 账户登录，使用前请先注册
+        </p>
   </div>
     
   <!-- 注册弹窗 -->
@@ -66,10 +69,6 @@ const handleIframeLoad = (event) => {
   }
 }
 </script>
-          
-        <p class="text-slate-400 text-xs md:text-sm text-center max-w-[280px]">
-            联机平台需要使用 HiMCBBS 账户登录，使用前请先注册
-        </p>
           
         <div class="mt-20 grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <div class="p-6 text-left">

@@ -52,23 +52,6 @@
     </div>
   </div>
 </div>
-
-<script setup>
-import { ref } from 'vue'
-
-const showRegisterModal = ref(false)
-
-const handleIframeLoad = (event) => {
-  // 处理iframe加载完成后的逻辑
-  const iframe = event.target
-  try {
-    // 调整iframe内部样式
-    iframe.contentDocument.body.classList.add('bg-slate-900', 'text-white')
-  } catch (e) {
-    console.log('跨域限制，无法修改iframe内容样式')
-  }
-}
-</script>
           
         <div class="mt-20 grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <div class="p-6 text-left">
@@ -143,7 +126,19 @@ const handleIframeLoad = (event) => {
   import { useRouter } from 'vue-router'
   import FeatureCard from '@/components/FeatureCard.vue'
   import AdvantageItem from '@/components/AdvantageItem.vue'
-  
+
+const showRegisterModal = ref(false)
+
+const handleIframeLoad = (event) => {
+  // 处理iframe加载完成后的逻辑
+  const iframe = event.target
+  try {
+    // 调整iframe内部样式
+    iframe.contentDocument.body.classList.add('bg-slate-900', 'text-white')
+  } catch (e) {
+    console.log('跨域限制，无法修改iframe内容样式')
+  }
+}
   const router = useRouter()
   
   const features = ref([

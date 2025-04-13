@@ -7,24 +7,25 @@
           开启你的 Minecraft 联机新时代
         </h1>
         <p class="text-xl text-slate-400 mb-12 max-w-3xl mx-auto">
-          基于 HiMCBBS 账号体系的专业级联机平台，支持 Java/基岩双版本无缝连接
+          Minecraft专业联机平台，支持多种联机方式
         </p>
         <div class="flex justify-center space-x-6">
-          <button 
-            @click="handleGetStarted"
-            class="bg-cyan-500 hover:bg-cyan-600 px-8 py-4 rounded-xl 
-            text-lg font-semibold text-white transition-all transform 
-            hover:scale-105 shadow-2xl shadow-cyan-500/30"
-          >
-            立即体验 →
-          </button>
-          <button 
-            class="border border-slate-600 hover:border-cyan-500 px-8 py-4 
-            rounded-xl text-lg font-semibold text-slate-300 transition-all
-            hover:bg-slate-800/50"
-          >
-            观看演示
-          </button>
+            <a
+                href="https://www.himcbbs.com/register"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="bg-cyan-500 hover:bg-cyan-600 px-8 py-4 rounded-xl text-lg font-semibold text-white transition-all transform hover:scale-105 shadow-2xl shadow-cyan-500/30 inline-block cursor-pointer"
+            >
+                立即注册 →
+            </a>
+            <a
+                href="https://console.nethertraffic.com"
+                target="_blank"
+                  rel="noopener noreferrer"
+                  class="border border-slate-600 hover:border-cyan-500 px-8 py-4 rounded-xl text-lg font-semibold text-slate-300 transition-all hover:bg-slate-800/50 inline-block cursor-pointer"
+            >
+              登录控制台
+            </a>
         </div>
   
         <div class="mt-20 grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">

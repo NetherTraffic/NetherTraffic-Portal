@@ -9,24 +9,63 @@
         <p class="text-xl text-slate-400 mb-12 max-w-3xl mx-auto">
           Minecraft专业联机平台，支持多种联机方式
         </p>
-        <div class="flex justify-center space-x-6">
-            <a
-                href="https://www.himcbbs.com/register"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="bg-cyan-500 hover:bg-cyan-600 px-8 py-4 rounded-xl text-lg font-semibold text-white transition-all transform hover:scale-105 shadow-2xl shadow-cyan-500/30 inline-block cursor-pointer"
-            >
-                立即注册 →
-            </a>
-            <a
-                href="https://console.nethertraffic.com"
-                target="_blank"
-                  rel="noopener noreferrer"
-                  class="border border-slate-600 hover:border-cyan-500 px-8 py-4 rounded-xl text-lg font-semibold text-slate-300 transition-all hover:bg-slate-800/50 inline-block cursor-pointer"
-            >
-              登录控制台
-            </a>
-        </div>
+<div class="flex flex-col items-center space-y-4">
+  <div class="flex justify-center space-x-6">
+    <!-- 注册按钮 -->
+    <button 
+      @click="showRegisterModal = true"
+      class="bg-cyan-500 hover:bg-cyan-600 px-8 py-4 rounded-xl text-lg font-semibold text-white transition-all transform hover:scale-105 shadow-2xl shadow-cyan-500/30 inline-block cursor-pointer"
+    >
+      立即注册 →
+    </button>
+
+    <!-- 控制台登录按钮 -->
+    <a
+      href="https://console.nethertraffic.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="border border-slate-600 hover:border-cyan-500 px-8 py-4 rounded-xl text-lg font-semibold text-slate-300 transition-all hover:bg-slate-800/50 inline-block cursor-pointer"
+    >
+      登录控制台
+    </a>
+  </div>
+    
+  <!-- 注册弹窗 -->
+  <div v-if="showRegisterModal" class="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4"
+       @click.self="showRegisterModal = false">
+    <div class="bg-slate-800 rounded-xl w-full max-w-2xl shadow-2xl border border-slate-700">
+      <div class="p-4 border-b border-slate-700 flex justify-between items-center">
+        <h3 class="text-lg font-semibold text-cyan-400">HiMCBBS 账户注册</h3>
+        <button @click="showRegisterModal = false" class="text-slate-400 hover:text-white">
+          &times;
+        </button>
+      </div>
+      <iframe 
+        src="https://www.himcbbs.com/register" 
+        class="w-full h-96 rounded-b-xl"
+        frameborder="0"
+        @load="handleIframeLoad"
+      ></iframe>
+    </div>
+  </div>
+</div>
+
+<script setup>
+import { ref } from 'vue'
+
+const showRegisterModal = ref(false)
+
+const handleIframeLoad = (event) => {
+  // 处理iframe加载完成后的逻辑
+  const iframe = event.target
+  try {
+    // 调整iframe内部样式
+    iframe.contentDocument.body.classList.add('bg-slate-900', 'text-white')
+  } catch (e) {
+    console.log('跨域限制，无法修改iframe内容样式')
+  }
+}
+</script>
           
         <p class="text-slate-400 text-xs md:text-sm text-center max-w-[280px]">
             联机平台需要使用 HiMCBBS 账户登录，使用前请先注册

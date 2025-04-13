@@ -26,11 +26,12 @@
             >
               登录控制台
             </a>
-            <p class="text-slate-400 text-xs md:text-sm text-center max-w-[280px]">
-                联机平台需要使用 HiMCBBS 账户登录，使用前请先注册
-            </p>
         </div>
-  
+          
+        <p class="text-slate-400 text-xs md:text-sm text-center max-w-[280px]">
+            联机平台需要使用 HiMCBBS 账户登录，使用前请先注册
+        </p>
+          
         <div class="mt-20 grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <div class="p-6 text-left">
             <div class="text-cyan-400 text-2xl mb-4">🎮 即刻联机</div>

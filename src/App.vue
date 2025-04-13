@@ -33,12 +33,14 @@
               <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all group-hover:w-full"></span>
             </router-link>
           </template>
-          <button 
-            @click="handleGetStarted"
-            class="bg-gradient-to-r from-purple-500 to-cyan-500 px-6 py-2 rounded-full text-white shadow-lg hover:shadow-xl transition-shadow hover:scale-[1.02]"
+          <a
+            href="https://console.nethertraffic.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-gradient-to-r from-purple-500 to-cyan-500 px-6 py-2 rounded-full text-white shadow-lg hover:shadow-xl transition-shadow hover:scale-[1.02] cursor-pointer"
           >
             开始使用
-          </button>
+          </a>
         </div>
 
         <!-- 移动端菜单按钮 -->

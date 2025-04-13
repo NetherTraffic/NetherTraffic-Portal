@@ -18,9 +18,6 @@
             >
                 立即注册 →
             </a>
-            <p class="text-slate-400 text-xs md:text-sm text-center max-w-[280px]">
-                联机平台需要使用 HiMCBBS 账户，使用前请先注册
-            </p>
             <a
                 href="https://console.nethertraffic.com"
                 target="_blank"
@@ -29,6 +26,9 @@
             >
               登录控制台
             </a>
+            <p class="text-slate-400 text-xs md:text-sm text-center max-w-[280px]">
+                联机平台需要使用 HiMCBBS 账户登录，使用前请先注册
+            </p>
         </div>
   
         <div class="mt-20 grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">

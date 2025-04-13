@@ -147,9 +147,6 @@
     { value: '50W+', label: '活跃玩家' }
   ])
   
-  const handleGetStarted = () => {
-    router.push('/console')
-  }
   </script>
   
   <style scoped>

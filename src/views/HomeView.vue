@@ -12,12 +12,14 @@
 <div class="flex flex-col items-center space-y-4">
   <div class="flex justify-center space-x-6">
     <!-- 注册按钮 -->
-    <button 
-      @click="showRegisterModal = true"
+    <a
+      href="https://www.himcbbs.com/regizter/"
+      target="_blank"
+      rel="noopener noreferrer"
       class="bg-cyan-500 hover:bg-cyan-600 px-8 py-4 rounded-xl text-lg font-semibold text-white transition-all transform hover:scale-105 shadow-2xl shadow-cyan-500/30 inline-block cursor-pointer"
     >
       立即注册 →
-    </button>
+    </a>
 
     <!-- 控制台登录按钮 -->
     <a

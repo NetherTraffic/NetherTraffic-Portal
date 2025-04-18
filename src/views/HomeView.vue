@@ -13,7 +13,7 @@
   <div class="flex justify-center space-x-6">
     <!-- 注册按钮 -->
     <a
-      href="https://www.himcbbs.com/regizter/"
+      href="https://www.himcbbs.com/register/"
       target="_blank"
       rel="noopener noreferrer"
       class="bg-cyan-500 hover:bg-cyan-600 px-8 py-4 rounded-xl text-lg font-semibold text-white transition-all transform hover:scale-105 shadow-2xl shadow-cyan-500/30 inline-block cursor-pointer"
@@ -35,24 +35,6 @@
     <p class="text-slate-400 text-xs md:text-sm text-center max-w-[280px]">
         联机平台需要使用 HiMCBBS 账户登录，使用前请先注册
     </p>  
-  </div>
-  <!-- 注册弹窗 -->
-  <div v-if="showRegisterModal" class="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4"
-       @click.self="showRegisterModal = false">
-    <div class="bg-slate-800 rounded-xl w-full max-w-2xl shadow-2xl border border-slate-700">
-      <div class="p-4 border-b border-slate-700 flex justify-between items-center">
-        <h3 class="text-lg font-semibold text-cyan-400">HiMCBBS 账户注册</h3>
-        <button @click="showRegisterModal = false" class="text-slate-400 hover:text-white">
-          &times;
-        </button>
-      </div>
-      <iframe 
-        src="https://www.himcbbs.com/register" 
-        class="w-full h-96 rounded-b-xl"
-        frameborder="0"
-        @load="handleIframeLoad"
-      ></iframe>
-    </div>
   </div>
 </div>
           
@@ -130,18 +112,6 @@
   import FeatureCard from '@/components/FeatureCard.vue'
   import AdvantageItem from '@/components/AdvantageItem.vue'
 
-const showRegisterModal = ref(false)
-
-const handleIframeLoad = (event) => {
-  // 处理iframe加载完成后的逻辑
-  const iframe = event.target
-  try {
-    // 调整iframe内部样式
-    iframe.contentDocument.body.classList.add('bg-slate-900', 'text-white')
-  } catch (e) {
-    console.log('跨域限制，无法修改iframe内容样式')
-  }
-}
   const router = useRouter()
   
   const features = ref([

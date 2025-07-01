@@ -5,16 +5,16 @@
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
         <!-- 法律声明 -->
         <div class="space-y-3">
-          <h3 class="text-lg font-semibold text-cyan-400 mb-4 border-l-4 border-cyan-500 pl-3">法律声明</h3>
+          <h3 class="text-lg font-semibold text-cyan-400 mb-4 border-l-4 border-cyan-500 pl-3">相关文档</h3>
           <nav class="space-y-2">
-            <a href="/privacy" class="flex items-center text-slate-300 hover:text-white transition-colors group">
+            <!-- <a href="/privacy" class="flex items-center text-slate-300 hover:text-white transition-colors group">
               <DocumentTextIcon class="w-4 h-4 mr-2 text-purple-400 group-hover:text-cyan-400 transition-colors" />
               隐私政策
             </a>
             <a href="/terms" class="flex items-center text-slate-300 hover:text-white transition-colors group">
               <ShieldCheckIcon class="w-4 h-4 mr-2 text-purple-400 group-hover:text-cyan-400 transition-colors" />
               服务条款
-            </a>
+            </a> -->
             <a href="https://docs.nethertraffic.com" class="flex items-center text-slate-300 hover:text-white transition-colors group">
               <BookOpenIcon class="w-4 h-4 mr-2 text-purple-400 group-hover:text-cyan-400 transition-colors" />
               使用文档
@@ -27,29 +27,29 @@
           <h3 class="text-lg font-semibold text-cyan-400 mb-4 border-l-4 border-cyan-500 pl-3">支持服务</h3>
           <div class="space-y-2">
             <div class="text-slate-300 flex items-center">
-              <PhoneIcon class="w-4 h-4 mr-2 text-purple-400" />
-              客服热线：400-123-4567
+              <EnvelopeIcon class="w-4 h-4 mr-2 text-purple-400" />
+              QQ交流群：881529005
             </div>
-            <div class="text-slate-300 flex items-center">
+            <!-- <div class="text-slate-300 flex items-center">
               <EnvelopeIcon class="w-4 h-4 mr-2 text-purple-400" />
               support@nethertraffic.com
             </div>
             <a href="/report" class="flex items-center text-slate-300 hover:text-white transition-colors">
               <FlagIcon class="w-4 h-4 mr-2 text-purple-400" />
               公正廉洁举报
-            </a>
+            </a> -->
           </div>
         </div>
 
         <!-- 企业信息 -->
-        <div class="space-y-3">
+        <!-- <div class="space-y-3">
           <h3 class="text-lg font-semibold text-cyan-400 mb-4 border-l-4 border-cyan-500 pl-3">企业信息</h3>
           <div class="space-y-2">
             <a href="/careers" class="block text-slate-300 hover:text-white transition-colors">加入我们</a>
             <a href="/partners" class="block text-slate-300 hover:text-white transition-colors">合作伙伴</a>
             <a href="/status" class="block text-slate-300 hover:text-white transition-colors">服务状态</a>
           </div>
-        </div>
+        </div> -->
 
         <!-- 社交平台 -->
         <div class="space-y-3">
@@ -75,8 +75,8 @@
             <p>创ICP备2021009274号-3</p>
           </div>
           <div class="space-y-1">
-            <p>CDN服务由 <span class="text-cyan-400">无损云加速</span> 提供</p>
-            <p>反诈劝阻专线：96110</p>
+            <p>CDN服务由 <span class="text-cyan-400">CNMCDN</span> 提供</p>
+            <!-- <p>反诈劝阻专线：96110</p> -->
           </div>
           <div class="space-y-1">
             <p>Copyright © 2019-2025 WXMC Network.</p>
@@ -84,9 +84,9 @@
         </div>
 
         <!-- 浏览器提示 -->
-        <div class="mt-6 text-center text-xs text-slate-500">
+        <!-- <div class="mt-6 text-center text-xs text-slate-500">
           推荐使用 Chrome 最新版本访问本站以获得最佳体验
-        </div>
+        </div> -->
       </div>
     </div>
   </footer>

@@ -42,17 +42,17 @@
           <div class="p-6 text-left">
             <div class="text-cyan-400 text-2xl mb-4">🎮 即刻联机</div>
             <h3 class="text-white text-xl mb-2">零门槛接入</h3>
-            <p class="text-slate-400">无需复杂配置，3步完成服务器部署</p>
+            <p class="text-slate-400">使用专用客户端或终端工具即可使用</p>
           </div>
           <div class="p-6 text-left">
-            <div class="text-purple-400 text-2xl mb-4">🌍 全球加速</div>
-            <h3 class="text-white text-xl mb-2">多节点覆盖</h3>
-            <p class="text-slate-400">国内BGP+海外优质线路智能切换</p>
+            <div class="text-purple-400 text-2xl mb-4">🔗 快捷高效</div>
+            <h3 class="text-white text-xl mb-2">支持P2P直连</h3>
+            <p class="text-slate-400">网络环境满足条件时可互相直连无需经过节点服务器中转</p>
           </div>
           <div class="p-6 text-left">
-            <div class="text-green-400 text-2xl mb-4">🛡️ 安全可靠</div>
-            <h3 class="text-white text-xl mb-2">企业级防护</h3>
-            <p class="text-slate-400">DDoS防御+数据加密双重保障</p>
+            <div class="text-green-400 text-2xl mb-4">🛡️ 功能强大</div>
+            <h3 class="text-white text-xl mb-2">支持多场景使用</h3>
+            <p class="text-slate-400">多种接入方式和功能支持，场景覆盖范围广</p>
           </div>
         </div>
       </section>
@@ -90,7 +90,7 @@
       </section>
   
       <!-- 技术指标 -->
-      <section class="container mx-auto px-4 mb-28">
+      <!-- <section class="container mx-auto px-4 mb-28">
         <div class="bg-slate-800 rounded-3xl p-12 text-center">
           <div class="grid md:grid-cols-4 gap-8">
             <div v-for="stat in stats" :key="stat.label" class="p-6">
@@ -102,7 +102,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
     </main>
   </template>
   
@@ -117,35 +117,35 @@
   const features = ref([
     {
       icon: '🚀',
-      title: '一键部署',
-      description: '支持主流服务端快速导入，自动完成环境配置和优化'
+      title: '高度自定义管理',
+      description: '使用Web控制台可创建和管理多个领域'
     },
     {
       icon: '🌐',
-      title: '全球互联',
-      description: '智能路由选择最佳节点，跨国联机延迟降低60%'
+      title: '联机列表服务',
+      description: '为用户提供联机信息整合，方便找到你需要的领域'
     },
     {
       icon: '🔧',
-      title: '全能工具',
-      description: '集成地图编辑器、插件市场等全套生态工具'
+      title: '客户端接入',
+      description: '客户端包含领域管理、接入和联机列表等功能'
     }
   ])
   
   const advantages = ref([
     {
-      title: '超低延迟',
-      description: '全国8大BGP节点，平均延迟<35ms',
+      title: '使用场景广泛',
+      description: '多种使用方式和高度自定义的设置选项',
       gradient: 'from-purple-500 to-cyan-500'
     },
     {
-      title: '99.99% SLA',
-      description: '基于K8s的分布式架构，自动故障转移',
+      title: '多节点支持',
+      description: '多节点设计，降低连接延迟',
       gradient: 'from-green-500 to-cyan-400'
     },
     {
-      title: '智能运维',
-      description: '7×24小时监控告警，自动伸缩资源',
+      title: '生态化运营',
+      description: 'HiMCBBS生态提供强大支持',
       gradient: 'from-orange-500 to-pink-500'
     }
   ])

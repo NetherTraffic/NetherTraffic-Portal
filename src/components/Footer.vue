@@ -71,9 +71,9 @@
       <!-- 备案信息 -->
       <div class="border-t border-slate-700/50 pt-8">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm text-slate-400">
-          <div class="space-y-1">
+          <!-- <div class="space-y-1">
             <p>创ICP备2021009274号-3</p>
-          </div>
+          </div> -->
           <div class="space-y-1">
             <p>CDN服务由 <span class="text-cyan-400">CNMCDN</span> 提供</p>
             <!-- <p>反诈劝阻专线：96110</p> -->

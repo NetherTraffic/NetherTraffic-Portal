@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="87.663002mm"
+   height="89.215729mm"
+   viewBox="0 0 87.663002 89.215729"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-51.148156,-199.85726)">
+    <rect
+       style="fill:#355fe2;fill-opacity:0.980392;stroke-width:0.997768"
+       id="rect5-8"
+       width="87.663002"
+       height="89.215721"
+       x="51.148159"
+       y="199.85725" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.2508px;font-family:'MOJANG ABC';-inkscape-font-specification:'MOJANG ABC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:0.854902;stroke-width:0.939039"
+       x="57.040497"
+       y="245.82101"
+       id="text2-8"
+       transform="scale(0.99509439,1.0049298)"><tspan
+         id="tspan2-2"
+         style="fill:#ffffff;fill-opacity:0.854902;stroke-width:0.939039"
+         x="57.040497"
+         y="245.82101">Netr</tspan><tspan
+         style="fill:#ffffff;fill-opacity:0.854902;stroke-width:0.939039"
+         x="57.040497"
+         y="262.38452"
+         id="tspan5-4">web</tspan><tspan
+         style="fill:#ffffff;fill-opacity:0.854902;stroke-width:0.939039"
+         x="57.040497"
+         y="278.94803"
+         id="tspan6">console</tspan><tspan
+         style="fill:#ffffff;fill-opacity:0.854902;stroke-width:0.939039"
+         x="57.040497"
+         y="295.51151"
+         id="tspan3-5" /></text>
+  </g>
+</svg>
